@@ -13,7 +13,7 @@ struct TodoTaskManagementApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskList(viewContext: persistenceController.container.viewContext)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

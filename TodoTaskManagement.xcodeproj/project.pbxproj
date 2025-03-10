@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5F3AC6222D7F13A9000C8632 /* TaskItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC6212D7F13A9000C8632 /* TaskItem+CoreDataProperties.swift */; };
+		5F3AC6232D7F13A9000C8632 /* TaskItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC6202D7F13A9000C8632 /* TaskItem+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5F3AC5F62D7F1231000C8632 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		5F3AC5E02D7F122E000C8632 /* TodoTaskManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoTaskManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3AC5F52D7F1231000C8632 /* TodoTaskManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoTaskManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3AC5FF2D7F1231000C8632 /* TodoTaskManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoTaskManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3AC6202D7F13A9000C8632 /* TaskItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5F3AC6212D7F13A9000C8632 /* TaskItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		5F3AC5D72D7F122E000C8632 = {
 			isa = PBXGroup;
 			children = (
+				5F3AC6202D7F13A9000C8632 /* TaskItem+CoreDataClass.swift */,
+				5F3AC6212D7F13A9000C8632 /* TaskItem+CoreDataProperties.swift */,
 				5F3AC5E22D7F122E000C8632 /* TodoTaskManagement */,
 				5F3AC5F82D7F1231000C8632 /* TodoTaskManagementTests */,
 				5F3AC6022D7F1231000C8632 /* TodoTaskManagementUITests */,
@@ -236,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3AC6222D7F13A9000C8632 /* TaskItem+CoreDataProperties.swift in Sources */,
+				5F3AC6232D7F13A9000C8632 /* TaskItem+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +410,7 @@
 				DEVELOPMENT_TEAM = Y8XUZ8F6G8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoTaskManagement;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +440,7 @@
 				DEVELOPMENT_TEAM = Y8XUZ8F6G8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoTaskManagement;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
